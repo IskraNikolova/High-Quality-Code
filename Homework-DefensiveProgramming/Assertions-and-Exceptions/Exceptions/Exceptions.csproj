@@ -41,12 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CSharpExam.cs" />
-    <Compile Include="ExamResult.cs" />
-    <Compile Include="SimpleMathExam.cs" />
-    <Compile Include="Exceptions.cs" />
-    <Compile Include="Exam.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Methods\CheckerIsPrime.cs" />
+    <Compile Include="Methods\ExtractorEnds.cs" />
+    <Compile Include="Methods\GenericSubstringSequence.cs" />
+    <Compile Include="StudentExam\Exams\CSharpExam.cs" />
+    <Compile Include="StudentExam\ExamResult.cs" />
+    <Compile Include="StudentExam\Interfaces\IExam.cs" />
+    <Compile Include="StudentExam\Exams\SimpleMathExam.cs" />
+    <Compile Include="MainTest.cs" />
+    <Compile Include="StudentExam\Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
