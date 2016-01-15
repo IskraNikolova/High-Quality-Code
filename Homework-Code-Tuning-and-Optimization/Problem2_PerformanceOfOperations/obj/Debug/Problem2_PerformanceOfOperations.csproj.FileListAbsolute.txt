@@ -1,0 +1,6 @@
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\Problem2_PerformanceOfOperations\bin\Debug\Problem2_PerformanceOfOperations.exe.config
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\Problem2_PerformanceOfOperations\bin\Debug\Problem2_PerformanceOfOperations.exe
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\Problem2_PerformanceOfOperations\bin\Debug\Problem2_PerformanceOfOperations.pdb
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\Problem2_PerformanceOfOperations\obj\Debug\Problem2_PerformanceOfOperations.csprojResolveAssemblyReference.cache
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\Problem2_PerformanceOfOperations\obj\Debug\Problem2_PerformanceOfOperations.exe
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\Problem2_PerformanceOfOperations\obj\Debug\Problem2_PerformanceOfOperations.pdb
