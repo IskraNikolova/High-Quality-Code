@@ -1,0 +1,8 @@
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\bin\Debug\CustomLinkedListTest.dll
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\bin\Debug\CustomLinkedListTest.pdb
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\bin\Debug\CustomLinkedList.dll
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\bin\Debug\CustomLinkedList.pdb
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\obj\Debug\CustomLinkedListTest.csprojResolveAssemblyReference.cache
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\obj\Debug\CustomLinkedListTest.dll
+E:\Softuni\KPK\HomeworkKPK\High-Quality-Code\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTest\obj\Debug\CustomLinkedListTest.pdb
