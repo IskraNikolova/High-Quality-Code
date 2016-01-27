@@ -1,9 +1,8 @@
-﻿using System;
-using Logger.Appenders;
-using LoggerLibrary.Interfaces;
-
-namespace LoggerLibrary.Appenders
+﻿namespace LoggerLibrary.Appenders
 {
+    using System;
+    using Interfaces;
+
     public class ConsoleAppender : Appender
     {
         public ConsoleAppender(ILayout formatter)

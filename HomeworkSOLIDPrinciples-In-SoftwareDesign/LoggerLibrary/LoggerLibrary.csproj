@@ -46,8 +46,8 @@
     <Compile Include="Interfaces\IAppender.cs" />
     <Compile Include="Interfaces\ILayout.cs" />
     <Compile Include="Interfaces\ILogger.cs" />
-    <Compile Include="Models\Logger.cs" />
-    <Compile Include="Models\SimpleLayout.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Layouts\SimpleLayout.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportLevel.cs" />
   </ItemGroup>

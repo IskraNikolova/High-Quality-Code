@@ -1,10 +1,9 @@
-﻿using System;
-using System.IO;
-using Logger.Appenders;
-using LoggerLibrary.Interfaces;
-
-namespace LoggerLibrary.Appenders
+﻿namespace LoggerLibrary.Appenders
 {
+    using System;
+    using System.IO;
+    using Interfaces;
+
     public class FileAppender : Appender
     {
         private StreamWriter writer;

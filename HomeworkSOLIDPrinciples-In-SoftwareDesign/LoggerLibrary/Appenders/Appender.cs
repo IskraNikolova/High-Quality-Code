@@ -1,9 +1,8 @@
-﻿using System;
-using LoggerLibrary;
-using LoggerLibrary.Interfaces;
-
-namespace Logger.Appenders
+﻿namespace LoggerLibrary.Appenders
 {
+    using System;
+    using Interfaces;
+
     public abstract class Appender : IAppender
     {
         private ILayout formatter;
