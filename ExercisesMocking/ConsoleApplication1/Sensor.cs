@@ -6,11 +6,17 @@ namespace ConsoleApplication1
     {
         private const double Offset = 16;
 
-        private readonly Random random = new Random();
+        private  IRandomProvider random;
+
+        public Sensor(IRandomProvider random)
+        {
+            this.random = random;
+        }
 
         public double PopNextPressurePsiValue()
         {
-            double pressureTelemetryValue = (6 * random.NextDouble() * random.NextDouble()) + Offset;
+            double randomNumber = this.random.GetRandomNumber();
+            double pressureTelemetryValue = (6 * randomNumber * randomNumber) + Offset;
 
             return pressureTelemetryValue;
         }

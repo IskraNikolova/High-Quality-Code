@@ -7,7 +7,7 @@ namespace TimePressureMonitorinSystem.Test
 {
     [TestClass]
     public class AlarmOnTest
-    {
+     {
         [TestMethod]
         public void CheckIsOutOfRange_IsAlarmOnFalseWhenIsInRange_ShouldBeFalse()
         {
@@ -18,6 +18,18 @@ namespace TimePressureMonitorinSystem.Test
             checkIsTrue.CheckIsOutOfRange();
 
             Assert.AreEqual(checkIsTrue.AlarmOn, false);
+        }
+
+        [TestMethod]
+        public void PopNextPressurePsiValue_IsResultIsCorrect_ShouldBe()
+        {
+            var mock = new Mock<IRandomProvider>();
+            mock.Setup(r => r.GetRandomNumber()).Returns(1);
+
+            var sensor = new Sensor(mock.Object);
+            var resultNumber = sensor.PopNextPressurePsiValue();
+
+            Assert.AreEqual(resultNumber, 22);
         }
     }
 }
