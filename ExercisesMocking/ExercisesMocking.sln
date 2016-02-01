@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeNowAddDays", "DateT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeNowAddDays.Test", "DateTime.Now.AddDays.Test\DateTimeNowAddDays.Test.csproj", "{9D9F234A-CCE0-4138-86FD-698561ED4210}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressureMonitoringSystem", "ConsoleApplication1\TirePressureMonitoringSystem.csproj", "{8DAD4639-EA2D-472C-898E-944DE5ECCE42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimePressureMonitorinSystem.Test", "TimePressureMonitorinSystem.Test\TimePressureMonitorinSystem.Test.csproj", "{C2598FF3-F685-4A3B-B35D-D7B60E9483B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9D9F234A-CCE0-4138-86FD-698561ED4210}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D9F234A-CCE0-4138-86FD-698561ED4210}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D9F234A-CCE0-4138-86FD-698561ED4210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DAD4639-EA2D-472C-898E-944DE5ECCE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DAD4639-EA2D-472C-898E-944DE5ECCE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DAD4639-EA2D-472C-898E-944DE5ECCE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DAD4639-EA2D-472C-898E-944DE5ECCE42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2598FF3-F685-4A3B-B35D-D7B60E9483B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2598FF3-F685-4A3B-B35D-D7B60E9483B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2598FF3-F685-4A3B-B35D-D7B60E9483B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2598FF3-F685-4A3B-B35D-D7B60E9483B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
