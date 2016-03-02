@@ -4,9 +4,9 @@ namespace SimpleFactoryDemo.Models
 {
     public class OnlineStudent : Student
     {
-        public const int ID = 2;
+        public const string Type = "Online";
 
-        public OnlineStudent(string name, IList<int> evaluations)
+        public OnlineStudent(string name, IList<double> evaluations)
             : base(name, evaluations)
         {
         }

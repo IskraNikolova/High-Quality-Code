@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\UnitController.cs" />
     <Compile Include="Factory\SimpleFactory.cs" />
+    <Compile Include="Interfaces\IFactory.cs" />
     <Compile Include="Interfaces\IStudent.cs" />
     <Compile Include="Models\OnlineStudent.cs" />
     <Compile Include="Models\OnsiteStudent.cs" />

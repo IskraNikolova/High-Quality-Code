@@ -4,9 +4,9 @@
 
     public class RemoteStudent : Student
     {
-        public const int ID = 3;
+        public const string Type = "RemoteStudent";
 
-        public RemoteStudent(string name, IList<int> evaluations) 
+        public RemoteStudent(string name, IList<double> evaluations) 
             : base(name, evaluations)
         {
         }

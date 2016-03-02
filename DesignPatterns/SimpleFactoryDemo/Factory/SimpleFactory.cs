@@ -5,17 +5,17 @@
     using SimpleFactoryDemo.Interfaces;
     using SimpleFactoryDemo.Models;
 
-    public static class SimpleFactory
+    public class SimpleFactory : IFactory
     {
-        public static IStudent Create(int id, string name, IList<int> evaluations)
+        public IStudent Create(string type, string name, IList<double> evaluations)
         {
-            switch (id)
+            switch (type)
             {
-                case OnlineStudent.ID:
+                case OnlineStudent.Type:
                     return new OnlineStudent(name, evaluations);
-                case OnsiteStudent.ID:
+                case OnsiteStudent.Type:
                     return new OnsiteStudent(name, evaluations);
-                case RemoteStudent.ID:
+                case RemoteStudent.Type:
                     return new RemoteStudent(name, evaluations);
             }
 

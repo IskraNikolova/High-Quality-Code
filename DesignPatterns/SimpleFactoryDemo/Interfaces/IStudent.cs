@@ -5,6 +5,6 @@
     public interface IStudent
     {
         string Name { get; }
-        IList<int> Evaluations { get; }
+        IList<double> Evaluations { get; }
     }
 }
