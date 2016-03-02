@@ -14,6 +14,7 @@ namespace SimpleFactoryDemo
             IFactory factory = new SimpleFactory();
             var controller = new UnitController(factory);
             IStudent student = controller.GetAllStudents(new []{"Online", "Iskra Radeva", "5.0 6 6"});
+
             Console.WriteLine($"Name {student.Name}");      
         }
     }
