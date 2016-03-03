@@ -1,7 +1,7 @@
-﻿using FactoryMethod.Factory;
-
-namespace FactoryMethod
+﻿namespace FactoryMethod
 {
+    using FactoryMethod.Factory;
+
     public class FactoryMethodMainTest
     {
         public static void Main()
