@@ -9,8 +9,9 @@
             var video = new Video("Iskra Nikolova", "Neshto", 22, 99);
 
             var borrowableVideo = new Borrowable(video);
-            var borrowableVideo1 = new Borrowable(book);
             borrowableVideo.Display();
+
+            var borrowableVideo1 = new Borrowable(book);           
             borrowableVideo1.Display();
         }
     }
