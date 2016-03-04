@@ -1,4 +1,4 @@
-﻿namespace BuilderFactory
+﻿namespace BuilderFactory.Models
 {
     using System;
     using System.Collections.Generic;
@@ -25,6 +25,7 @@
         {
             Console.WriteLine("-------------------");
             Console.WriteLine($"Vehicle Type - {this.vehicleType}");
+            //TODO
         }
     }
 }

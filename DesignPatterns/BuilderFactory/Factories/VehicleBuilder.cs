@@ -1,5 +1,7 @@
 ﻿namespace BuilderFactory.Factories
 {
+    using BuilderFactory.Models;
+
     public abstract class VehicleBuilder
     {
         public Vehicle Vehicle { get; set; }

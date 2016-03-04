@@ -1,5 +1,7 @@
 ﻿namespace BuilderFactory.Factories
 {
+    using BuilderFactory.Models;
+
     public class CarBuilder : VehicleBuilder
     {
         public CarBuilder()

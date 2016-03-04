@@ -1,7 +1,7 @@
-﻿using BuilderFactory.Factories;
-
-namespace BuilderFactory
+﻿namespace BuilderFactory
 {
+    using BuilderFactory.Factories;
+
     public class BuilderFactoryTestMain
     {
         public static void Main()
