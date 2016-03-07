@@ -5,7 +5,7 @@
 
     public class Commander : PersonComponent
     {
-        private ICollection<PersonComponent> subjects;
+        private readonly ICollection<PersonComponent> subjects;
          
         public Commander(string name) : base(name)
         {
